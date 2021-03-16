@@ -18,6 +18,7 @@
     height: 150px;
     width: 100%;
     color:black;
+    border: black solid; 
   }
   
   nav a {
@@ -59,12 +60,11 @@
     width: 95%;
     height: auto;
     margin: auto;
-    padding: 10px;
+    padding: 50px;
     display: flex;
   }
   
   .card {
-    border: rgb(92, 94, 96) 2px solid;
     border-right: rgb(247, 248, 245) 7px solid;
     min-width: 100px;
     min-height: 200px;
@@ -136,6 +136,7 @@
     clear: both;
     padding-top: 10px;
     margin-right: 20px;
+    flex-direction:column;
   }
   .footer ul a {
     text-align: center;
