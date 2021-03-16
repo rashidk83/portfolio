@@ -4,7 +4,7 @@
   
   body {
     margin: 0;
-    background-color: #e3e4e0;
+    background-color: white;
   }
   
   header {
@@ -40,18 +40,18 @@
   }
   
   header h1 {
-    border: green 2px solid;
     font-size: 2.8rem;
-    margin-top: 7%;
+    margin-top: 10%;
     max-width: 35%;
+    text-align: center;
   }
   
   header img {
-    border: green 2px solid;
     height: 150px;
-    width: 120px;
+    width: 150px;
     border-radius: 5%;
     position: relative;
+    margin-right: auto;
   }
   
   section {
