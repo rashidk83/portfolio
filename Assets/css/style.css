@@ -7,23 +7,23 @@
     background-color: white;
   }
   
+
   header {
-    border: green 2px solid;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    background: #7f867b;
+    background:white;
     margin: 0 0 10% 0;
     border-top: 0;
-    height: 400px;
+    height: 150px;
     width: 100%;
-    color: white;
+    color:black;
   }
   
   nav a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: white;
+    color: black;
     cursor: pointer;
   }
   
@@ -33,18 +33,19 @@
   }
   
   nav li {
-    border: rgb(128, 0, 17) 2px solid;
-    margin-right: 5%;
+    border:red 2px solid;
+    margin-right: 25%;
     list-style-type: none;
     color: white;
   }
   
   header h1 {
     font-size: 2.8rem;
-    margin-top: 10%;
+    margin-top: 5%;
     max-width: 35%;
     text-align: center;
-  }
+    margin-right: auto;
+   }
   
   header img {
     height: 150px;
@@ -55,7 +56,6 @@
   }
   
   section {
-    border: rgb(37, 111, 172) 2px solid;
     width: 95%;
     height: auto;
     margin: auto;
@@ -119,12 +119,19 @@
     padding: 10px;
     display: flex;
   }
-  
+ 
+  .footer-text-left {
+    font: size 20px;
+    float: left;
+
+  }
+
+
   footer {
-    display: flex;
-    color: white;
+    display:block;
+    color:black;
     justify-content: space-around;
-    background: #7f867b;
+    background:white;
     padding: 30px;
     clear: both;
     padding-top: 10px;
@@ -134,8 +141,8 @@
     text-align: center;
     list-style-type: none;
     text-decoration-line: none;
-    font-size: 24px;
-    color: white;
+    font-size: 20px;
+    color:black;
   }
   
   @media screen and (max-width: 992px) {
@@ -158,7 +165,7 @@
       display: block;
     }
     header h1 {
-      font-size: 2rem;
+      font-size: 20px;
    }
   
    
